@@ -183,4 +183,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a researcher at Huawei Noah's Ark Lab, specialized in the cutting-edge fields of **Embodied AI** and **Reinforcement Learning** (RL). I am dedicated to researching embodied technologies including perception, planning, movement, and operation, and promoting the industrial application of embodied AI. I obtained a bachelor's degree in Marine technology from [Dalian University of Technology](https://www.dlut.edu.cn/)(DUT) and a Ph.D. degree in [Electronic Information from the Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China](https://pmpi.ustc.edu.cn/main.htm)(USTC). I also interned at the [Tencent Robotics X](https://ai.tencent.com/ailab/zh/index)(supervised by Dr. Zheng Yu and Dr. Huang Bidan). My research interests include body-intelligence, humanoid robots, reinforcement learning, robot motion planning and operation learning, etc. I also maintain a high level of interest and attention in fields such as robot simulation, data-driven, and multimodal large models.
+
+<span style="font-size: 17px;">中文简介：郑立，博士，毕业于中国科学技术大学精密机械与精密仪器系，现任华为诺亚方舟实验室（Noah's Ark Lab）研究员。研究方向包括具身智能、人形机器人、强化学习、机器人运动规划和操作学习等，并对机器人仿真、数据驱动、多模态大模型等领域保持高度兴趣和关注。在机器人领域学术会议和期刊上发表论文，并担任多个国际会议和期刊的审稿人。
+</span>
+<br>
