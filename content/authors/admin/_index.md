@@ -79,7 +79,7 @@ work:
     company_name: Huawei Noah's Ark Lab
     company_url: ''
     company_logo: ''
-    date_start: 2025-06-31
+    date_start: 2025-06-30
     date_end: ''
     summary: |2-
       Responsibilities include:
