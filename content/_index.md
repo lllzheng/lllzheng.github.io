@@ -11,10 +11,10 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      # 使用 `content/authors/admin/` 下的作者信息
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      text: ""      # # 简介文字（为空则读取作者资料）
+      # 如果需要在简历中添加下载按钮，请设置 `button` 字段
       button:
         text: Download CV
         url: uploads/郑立个人简历.pdf
