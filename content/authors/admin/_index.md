@@ -37,7 +37,7 @@ profiles:
     url: https://x.com/lllzheng_x
   - icon: brands/github
     url: https://github.com/lllzheng
-  - icon: fab/fa-bilibili
+  - icon: <i class="fa-brands fa-bilibili" style="color: #74C0FC;"></i>
     url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
   - icon: fab/fa-zhihu
     url: https://www.zhihu.com/people/zheng-li-26-99
