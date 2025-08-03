@@ -3,8 +3,9 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
+# 菜单项
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
   - name: Papers

@@ -13,8 +13,7 @@ sections:
     content:
       # 使用 `content/authors/admin/` 下的作者信息
       username: admin
-      text: ""      # # 简介文字（为空则读取作者资料）
-      # 如果需要在简历中添加下载按钮，请设置 `button` 字段
+      text: ""      # 简介文字（为空则读取作者资料）
       button:
         text: Download CV
         url: uploads/郑立个人简历.pdf

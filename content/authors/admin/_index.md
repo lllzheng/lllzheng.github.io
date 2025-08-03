@@ -37,73 +37,53 @@ profiles:
     url: https://x.com/lllzheng_x
   - icon: brands/github
     url: https://github.com/lllzheng
+  - icon: <i class="fa-brands fa-bilibili" style="color: #74C0FC;"></i>
+    url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
+  - icon: <i class="fa-brands fa-zhihu"></i>
+    url: https://www.zhihu.com/people/zheng-li-26-99
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-#   - icon: brands/linkedin
-#     url: https://www.linkedin.com/
-#   - icon: brands/instagram
-#     url: https://www.instagram.com/
+    url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
 #   - icon: academicons/orcid
 #     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Embodied AI
+  - Robot Control
+  - Reinforcement Learning
+  - Data-driven Robotics
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: PhD Electronic Information
     institution: University of Science and Technology of China
     date_start: 2020-09-01
     date_end: 2025-06-20
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      ""
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://pmpi.ustc.edu.cn/main.htm'
+#   - area: MEng Instrument Science and Technology
+#     institution: University of Science and Technology of China
+#     date_start: 2020-09-01
+#     date_end: 2022-06-30
+#     summary: |
+#       ""
+  - area: BSc Marine Technolog
+    institution: Dalian University of Technology
+    date_start: 2016-09-01
+    date_end: 2020-06-30
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      ""
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Researcher
+    company_name: Huawei Noah's Ark Lab
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-06-31
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
@@ -142,12 +122,10 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
+    percent: 100
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -160,25 +138,7 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      
 ---
 
 ## About Me
