@@ -6,8 +6,8 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
-  favicon: assets/media/icons/favicon.png
+  color: sky              # emerald
+  favicon: media/icon.png
 
 # SEO
 marketing:
@@ -27,18 +27,18 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
+# 页眉
 header:
   navbar:
-    enable: true
-    blox: "navbar"
-    fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
-    logo:
+    enable: true              # 启用导航栏
+    blox: "navbar"            # 使用Blox组件
+    fixed_to_top: true         # 固定在顶部
+    show_search: true         # 显示搜索框
+    show_theme_chooser: true  # 显示主题选择器
+    logo:                     # 网站Logo
       text: "lllzheng"
 
-# Site footer
+# 页脚
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
