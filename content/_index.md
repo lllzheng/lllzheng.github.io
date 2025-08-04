@@ -9,7 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-# Biography
+  # Biography
   - block: resume-biography-3
     content:
       # 使用 `content/authors/admin/` 下的作者信息
@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-# Recent Publications
+  # Recent Publications
   - block: collection
     content:
       title: Recent Publications
@@ -41,13 +41,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-# Skills
+  # Skills
   - block: collection
     content:
       title: Skills
       text: ""
     design:
-      view: citation
+      card:
+        columns: '3'  # 列数布局
+        view: card    # 显示视图
+        spacing: "6rem"  # 间距设置
 # Experience
   - block: experience
     id: experience
@@ -70,7 +73,7 @@ sections:
           date_start: '2020-09-01'
           date_end: '2025-06-20'
     design:
-      columns: '2'
+      columns: '4'
 #   - block: collection
 #     id: talks
 #     content:
