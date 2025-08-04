@@ -43,8 +43,6 @@ profiles:
     url: https://www.zhihu.com/people/zheng-li-26-99
   - icon: academicons/google-scholar
     url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
-#   - icon: academicons/orcid
-#     url: https://orcid.org/
 
 interests:
   - Embodied AI
