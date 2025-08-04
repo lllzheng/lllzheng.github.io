@@ -58,10 +58,10 @@ education:
     date_start: 2020-09-01
     date_end: 2025-06-20
     summary: |
-      ""
-    button:
-      text: 'Read Thesis'
-      url: 'https://pmpi.ustc.edu.cn/main.htm'
+      
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://pmpi.ustc.edu.cn/main.htm'
 #   - area: MEng Instrument Science and Technology
 #     institution: University of Science and Technology of China
 #     date_start: 2020-09-01
@@ -73,7 +73,7 @@ education:
     date_start: 2016-09-01
     date_end: 2020-06-30
     summary: |
-      ""
+      
 work:
   - position: Researcher
     company_name: Huawei Noah's Ark Lab
@@ -82,10 +82,7 @@ work:
     date_start: 2025-06-30
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
