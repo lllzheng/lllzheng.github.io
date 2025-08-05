@@ -115,16 +115,7 @@ skills:
         percent: 80
         icon: camera
 
-languages:
-  - name: Chinese
-    percent: 100
-  - name: English
-    percent: 75
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
