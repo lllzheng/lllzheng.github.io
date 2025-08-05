@@ -21,12 +21,12 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 0.5
+            brightness: 0.2
           size: cover
           position: center
           parallax: false
@@ -51,7 +51,7 @@ sections:
         columns: '3'  # 列数布局
         view: card    # 显示视图
         spacing: "6rem"  # 间距设置
-# Experience
+  # Experience
   - block: experience
     id: experience
     content:
@@ -74,14 +74,4 @@ sections:
           date_end: '2025-06-20'
     design:
       columns: '4'
-#   - block: collection
-#     id: talks
-#     content:
-#       title: Recent & Upcoming Talks
-#       filters:
-#         folders:
-#           - event
-#     design:
-#       view: article-grid
-#       columns: 1
 ---

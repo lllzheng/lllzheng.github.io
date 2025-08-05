@@ -71,6 +71,14 @@ work:
     date_start: 2025-06-30
     date_end: ''
     summary: |2-
+
+  - position: Research Intern
+    company_name: Tencent Robotics X Lab
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-03-01
+    date_end: 2024-06-20
+    summary: |2-
       
 
 # Skills
