@@ -19,8 +19,6 @@ sections:
         url: uploads/郑立个人简历.pdf
     design:
       css_class: white
-      spacing:
-        padding: "1rem"
     #   background:
     #     color: black
     #     image:
@@ -65,13 +63,4 @@ sections:
       view: card
       spacing:
         padding: "1rem"
-    # Awards
-  - block: collection
-    id: awards
-    content:
-        title: Awards
-        items: []  
-    design:
-        view: list
-        spacing: "2rem"
 ---
