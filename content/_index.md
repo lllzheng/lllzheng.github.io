@@ -19,15 +19,15 @@ sections:
         url: uploads/郑立个人简历.pdf
     design:
       css_class: white
-      background:
-        color: white
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 0.2
-          size: cover
-          position: center
-          parallax: false
+    #   background:
+    #     color: black
+    #     image:
+    #       filename: stacked-peaks.svg
+    #       filters:
+    #         brightness: 0.2
+    #       size: cover
+    #       position: center
+    #       parallax: false
   # Recent Publications
   - block: collection
     content:
@@ -63,4 +63,13 @@ sections:
       view: card
       spacing:
         padding: "1rem"
+    # Awards
+  - block: collection
+    id: awards
+    content:
+        title: Awards
+        items: []  
+    design:
+        view: list
+        spacing: "2rem"
 ---
