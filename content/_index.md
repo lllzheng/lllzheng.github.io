@@ -46,6 +46,7 @@ sections:
     content:
       title: Skills
       text: ""
+      items: {{ .Site.GetPage "authors/admin".Params.skills }}
     design:
       card:
         columns: '3'  # 列数布局
@@ -57,21 +58,7 @@ sections:
     content:
       title: Experience
       date_format: Jan 2006
-      items:
-        - title: Researcher
-          company: Noah's Ark Lab, Huawei
-          company_url: ''
-          company_logo: ''
-          location: China
-          date_start: '2025-06-30'
-          date_end: ''
-        - title: PhD Student
-          company: University of Science and Technology of China(USTC)
-          company_url: 'https://www.ustc.edu.cn/'
-          company_logo: 'images/ustcblue.jpg'
-          location: China
-          date_start: '2020-09-01'
-          date_end: '2025-06-20'
+      items: {{ .Site.GetPage "authors/admin".Params.work }}
     design:
       columns: '4'
 ---
