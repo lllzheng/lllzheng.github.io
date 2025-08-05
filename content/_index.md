@@ -62,12 +62,12 @@ sections:
       columns: '4'
       view: card
       spacing: "6rem"
-  # Awards
-  - block: collection
-    id: awards
-    content:
-    title: Awards
-    items: []
-    design:
-    view: list
+#   # Awards
+#   - block: collection
+#     id: awards
+#     content:
+#     title: Awards
+#     items: []
+#     design:
+#     view: list
 ---
