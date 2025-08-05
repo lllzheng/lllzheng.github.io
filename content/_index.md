@@ -61,15 +61,6 @@ sections:
     design:
       columns: '4'
       view: card
-      spacing: "6rem"
-  # Awards
-  - block: collection
-    id: awards  
-    content:
-    title: Awards
-    items: []
-    design:
-      view: list
-      spacing: "1rem"
-      padding: "1rem"
+      spacing:
+        padding: "1rem"
 ---
