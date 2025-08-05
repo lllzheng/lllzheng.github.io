@@ -19,6 +19,8 @@ sections:
         url: uploads/郑立个人简历.pdf
     design:
       css_class: white
+      spacing:
+        padding: "1rem"
     #   background:
     #     color: black
     #     image:
