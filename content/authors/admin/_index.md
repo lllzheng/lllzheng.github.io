@@ -62,6 +62,7 @@ education:
     date_start: 2016-09-01
     date_end: 2020-06-30
     summary: |
+
 # Awards
 awards:
   - title: Neural Networks and Deep Learning
@@ -70,6 +71,7 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: |
+
 ---
 
 ## About Me
