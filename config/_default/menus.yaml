@@ -6,7 +6,7 @@
 # 菜单项
 main:
   - name: Home
-    url: /
+    url: "#about"
     weight: 10
   - name: Papers
     url: /#papers
