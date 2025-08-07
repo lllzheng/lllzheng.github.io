@@ -1,12 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: ''
 date: 2022-10-24
 type: landing
-
-# design:
-#   # Default section spacing
-#   spacing: "2rem"
 
 sections:
   - block: hero
@@ -40,15 +36,93 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-  # Biography
   - block: about.biography
+    id: about
     content:
+      title: Biography
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      button:
-        text: Download CV
-        url: uploads/郑立个人简历.pdf
-  # Publications
   - block: collection
+    id: book
+    content:
+      title: Book
+      filters:
+        folders:
+          - book
+    design:
+      columns: '1'
+      view: compact
+#  - block: accomplishments
+#    content:
+#      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+#      title: 'Accomplish&shy;ments'
+#      subtitle:
+#      # Date format: https://docs.hugoblox.com/customization/#date-format
+#      date_format: Jan 2006
+#      # Accomplishments.
+#      #   Add/remove as many `item` blocks below as you like.
+#      #   `title`, `organization`, and `date_start` are the required parameters.
+#      #   Leave other parameters empty if not required.
+#      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#      items:
+#        - certificate_url: https://www.coursera.org
+#          date_end: ''
+#          date_start: '2021-01-25'
+#          description: ''
+#          icon: coursera
+#          organization: Coursera
+#          organization_url: https://www.coursera.org
+#          title: Neural Networks and Deep Learning
+#          url: ''
+#        - certificate_url: https://www.edx.org
+#          date_end: ''
+#          date_start: '2021-01-01'
+#          description: Formulated informed blockchain models, hypotheses, and use cases.
+#          icon: edx
+#          organization: edX
+#          organization_url: https://www.edx.org
+#          title: Blockchain Fundamentals
+#          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#        - certificate_url: https://www.datacamp.com
+#          date_end: '2020-12-21'
+#          date_start: '2020-07-01'
+#          description: ''
+#          icon: datacamp
+#          organization: DataCamp
+#          organization_url: https://www.datacamp.com
+#          title: 'Object-Oriented Programming in R'
+#          url: ''
+#    design:
+#      columns: '2'
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: Projects
+#      filters:
+#        folders:
+#          - project
+#      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+#      default_button_index: 0
+#      # Filter toolbar (optional).
+#      # Add or remove as many filters (`filter_button` instances) as you like.
+#      # To show all items, set `tag` to "*".
+#      # To filter by a specific tag, set `tag` to an existing tag name.
+#      # To remove the toolbar, delete the entire `filter_button` block.
+#      buttons:
+#        - name: All
+#          tag: '*'
+#        - name: Deep Learning
+#          tag: Deep Learning
+#        - name: Other
+#          tag: Demo
+#    design:
+#      # Choose how many columns the section has. Valid values: '1' or '2'.
+#      columns: '1'
+#      view: showcase
+#      # For Showcase view, flip alternate rows?
+#      flip_alt_rows: false
+  - block: collection
+    id: publication
     content:
       title: Publications
       text: |-
@@ -63,64 +137,105 @@ sections:
       count: 0
       sort_by: 'weight'
       sort_ascending: false
-      design:
-        columns: '1'
-        view: compact
+    design:
+      columns: '1'
+      view: compact
   - block: markdown
     id: talks
     content:
       title: Talks
       text: |
-        - <font size=4rem>机器人与仿生学国际会议: [自主导航与操作论坛](http://www.robio2023.org/). IEEE International Conference on Robotics and Biomimetics 2023.</font>
-      design:
-        columns: '2'
-  # Skills
-  - block: skills
-    id: skills
-    content:
-      title: Skills
-      text: ""
-      items: [] 
+        - <font size=4rem>中国空间智能大会: [空间智能与人形机器人论坛](https://mp.weixin.qq.com/s/Ld3BnjywD5UHtUY0QmuB0g). 中国图象图形学学会 2025.</font>
+        - <font size=4rem>上海市计算机学会计算机视觉专委会学术年会: [视觉中的大模型学习论坛](https://mp.weixin.qq.com/s/WYQUfP9b_RSWFRkjW8OgRw). 计算机学会 2025.</font>
+        - <font size=4rem>具身智能开发者大会: [人形机器人运动与交互专题论坛](https://mp.weixin.qq.com/s/eHlQbOH7mcvu_jRflPMmmg). 张江科学会堂 2025.</font>
+        - <font size=4rem>VALSE Webinar 379: [具身智能中的多模态感知与精细操控](https://mp.weixin.qq.com/s/wsNHjioVWo6KUB-PnJGQYQ). VALSE 2025.</font>
+        - <font size=4rem>中国具身智能大会: [模式识别与机器人论坛](https://mp.weixin.qq.com/s/OZMKYUCOAxRLlSLPHfjDJA). 人工智能学会 2025.</font>
+        - <font size=4rem>CSIG图像图形学科前沿讲习班: [小模型的曙光和机会之思辨](https://mp.weixin.qq.com/s/_2c35_vwNYSGDuCO65CJUQ). 图形图像学会 2025.</font>
+        - <font size=4rem>自主机器人技术研讨会（ARTS 2024）: [大模型驱动的具身智能](https://mp.weixin.qq.com/s/fICgNjj531I1rZtfZJT9kg). 自动化学会 2024.</font>
+        - <font size=4rem>CCF决策智能会议（RLChina）: [具身智能体与机器人论坛](http://rlchina.org/rlchina_2024/Workshop.html). 计算机学会 2024.</font>
+        - <font size=4rem>中国数据挖掘会议: [AI Agent与多智能体系统研讨会](https://ccf.org.cn/CCDM2024/general_3056). 计算机学会 2024.</font>
+        - <font size=4rem>世界人工智能大会-WAIC: [青年优秀论文论坛](https://mp.weixin.qq.com/s/vkhTG6uWF4wcA74TcJqFCA). 上海科协 2024.</font>
+        - <font size=4rem>中国具身智能大会: [大模型与具身智能](https://mp.weixin.qq.com/s/Z1vDIbZoiWQff1JiKxJHCw). 人工智能学会 2024.</font>
+        - <font size=4rem>上海自主智能无人系统科学中心: [智能决策学术报告](https://robot.tongji.edu.cn/info/1253/2399.htm). 同济大学 2023.</font>
+        - <font size=4rem>决策智能峰会: [决策大模型论坛](https://mp.weixin.qq.com/s/-fhPGNU_7VJKQ2FPQ-VPTw). DataFun 2023.</font>
+        - <font size=4rem>多智能体强化学习讲习班: [离线强化学习和大模型](https://mp.weixin.qq.com/s/YyFGVkBoiYVi0T887d6gWQ). 自动化学会 2023.</font>
+        - <font size=4rem>GAITC 全球人工智能技术大会: [人工智能原理专题论坛](https://gaitc.caai.cn/?from=wap#guest). 中国科协 2023.</font>
+        - <font size=4rem>高级人工智能公开课: [强化学习](https://baichenjia.github.io/). 天津大学 2023.</font>
+        - <font size=4rem>从统计学到人工智能研讨会: [强化学习的不确定性估计](https://ssm.sufe.edu.cn/d3/08/c1560a185096/page.htm). 上海财经大学 2022.</font>
     design:
-      card:
-        columns: '3'  # 列数布局
-        view: card    # 显示视图
-        spacing: "6rem"  # 间距设置
-  # Experience：work and education
+      columns: '2'
+#      view: compact
+  - block: markdown
+    id: service
+    content:
+      title: Service
+      text: |
+        - <font size=4rem>Senior Program Committee Member (SPC) / Area Chair (AC) of AAMAS (2024 - 2025)</font>
+        - <font size=4rem>Area Chair (AC) of Pattern Recognition and Computer Vision (PRCV) (2025 - )</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of RSS (2024 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of NeurIPS (2021 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of ICLR (2021 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of ICML (2022 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of AAAI (2021 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of ICRA (2024 - 2025)</font>
+        - <font size=4rem>Program Committee Members (PC) / Conference Reviewer of ECAI (2023 - 2025)</font>
+        - <font size=4rem>Journal Reviewer: IEEE Trans. Cybernetics, IEEE Trans. TNNLS, IEEE Trans. TETCI, IEEE Trans. Intelligent Vehicles, Pattern Recognition.</font>
+    design:
+      columns: '2'
   - block: experience
     id: experience
     content:
       title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       items:
-        - title: Researcher
-          company: Huawei Noah's Ark Lab
+        - title: Research Scientist
+          company: TeleAI, China Telecom
           company_url: ''
           company_logo: ''
           location: China
-          date_start: '2025-06-30'
+          date_start: '2024-09-02'
           date_end: ''
-        - title: Research Intern
-          company: Tencent Robotics X Lab
+        - title: Researcher
+          company: Shanghai AI Laboratory
           company_url: ''
           company_logo: ''
           location: China
-          date_start: '2024-03-01'
-          date_end: '2024-06-20'
+          date_start: '2022-09-02'
+          date_end: '2024-08-31'
+        - title: Joint PhD Student
+          company: University of Toronto
+          company_url: ''
+          company_logo: ''
+          location: Canada
+          date_start: '2021-06-01'
+          date_end: '2022-09-01'
         - title: PhD Student
-          company: University of Science and Technology of China
+          company: Harbin Institute of Technology
           company_url: ''
           company_logo: ''
           location: China
-          date_start: '2020-09-01'
-          date_end: '2025-06-20' 
-        - title: BSc Student
-          company: Dalian University of Technology
-          company_url: ''
-          company_logo: ''
-          location: China
-          date_start: '2016-09-01'
-          date_end: '2020-06-30' 
+          date_start: '2017-06-01'
+          date_end: '2022-09-01'
     design:
       columns: '2'
+#  - block: contact
+#    id: contact
+#    content:
+#      title: Contact
+#      subtitle:
+#      text: |-
+#          <h3>Internship chances:</h3>
+#          <font size=4.5rem>
+#          Our group is looking for highly-motivated Interns on board Reinforcement Learning research. We are also interested in RL applications including Robot Arm and Quadruped. Please drop me an email if you are interested in.
+#          <br>
+#          Email: <u>baichenjia (at) pjlab.org.cn</u> &nbsp; & &nbsp;  <u>baichenjia255 (at) gmail.com</u>
+#          </font>
+#      # Choose a map provider in `params.yaml` to show a map from these coordinates
+#      # Automatically link email and phone or display as text?
+#      autolink: true
+#      # Email form provider
+#    design:
+#      columns: '2'
 ---

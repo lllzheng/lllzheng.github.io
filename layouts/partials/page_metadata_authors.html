@@ -1,0 +1,49 @@
+{{/* Display author list. */}}
+
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+{{ range $index, $value := (.GetTerms $taxonomy) }}
+{{- /* Highlight the author's name? */ -}}
+{{- $highlight_name := .Page.Params.highlight_name | default false -}}
+
+{{- if gt $index 0 }}, {{ end -}}
+<span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+      {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
+      {{- $authorName := .LinkTitle }}
+      {{- $plainName := $authorName }}
+      {{- if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
+        {{- $plainName = (substr $authorName 0 (sub (len $authorName) 1)) }}
+      {{ end }}
+      {{- if .RelPermalink -}}
+        <a href="{{.RelPermalink}}" style="{{ if eq $plainName "Chenjia Bai" }}font-weight:bold;color:black;{{ end }}">
+          {{ if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
+            {{ $plainName }}<sup>✉</sup>
+          {{ else }}
+            {{ $authorName }}
+          {{ end }}
+  </a>
+  {{- else -}}
+        {{ if eq $plainName "Chenjia Bai" }}
+          <strong style="font-weight:bold;color:black;">
+            {{ if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
+              {{ $plainName }}<sup>✉</sup>
+            {{ else }}
+              {{ $authorName }}
+            {{ end }}
+          </strong>
+        {{ else }}
+          {{ if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
+            {{ $plainName }}<sup>✉</sup>
+          {{ else }}
+            {{ $authorName }}
+          {{ end }}
+        {{ end }}
+      {{- end -}}
+    </span>
+{{- if isset $.Params "author_notes" -}}
+{{- with (index $.Params.author_notes $index) -}}
+<i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
