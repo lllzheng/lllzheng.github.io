@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 白辰甲
+title: 郑立
 
 # Name pronunciation (optional)
-name_pronunciation: Bai Chenjia
+name_pronunciation: Zheng Li
 
 # Full name (for SEO)
-first_name: Chenjia
-last_name: Bai
+first_name: Zheng
+last_name: Li
 
 # Status emoji
 status:
@@ -112,13 +112,24 @@ social:
 highlight_name: true
 ---
 
-<br>I am a Research Scientist at [Institute of Artificial Intelligence (TeleAI), China Telecom](http://www.chinatelecom.com.cn) and the Director of Embodied AI research center, specialized in the cutting-edge field of **Embodied AI** and **Reinforcement Learning** (RL). Our group is dedicated to develop embodied technologies encompassing perception, planning, locomotion, manipulation, and promoting the industrial application of embodied AI. Our group thrives under the leadership of Prof. [Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN), who serves as the dean of TeleAI. Previously, I was a Researcher at [Shanghai AI Laboratory](https://www.shlab.org.cn/), affiliated with [IPEC group](https://www.pjlab-ipec.com/). My research interests include diffusion/transformer policy, LLM-driven planning, world model, preference learning, RL/MPC-based locomotion, dexterous manipulation, representation learning, sim-to-real, multi-agent collaboration, as well as real-world applications for robot arm, dexterous hand, quadruped robot, and humanoid robot.
-<br><br>
-I holds a Ph.D. degree in Computer Science from Harbin Institute of Technology ([HIT](https://www.hit.edu.cn/)), advised by Prof. [Peng Liu](http://pr-ai.hit.edu.cn/2018/0505/c10408a207376/page.htm). I am fortunate to have been collaborated with many fantastic researchers. I was a joint PhD student at [University of Toronto](https://www.utoronto.ca/) and [Vector Institute](https://vectorinstitute.ai/), working with Prof. [Animesh Garg](http://animesh.garg.tech/). I also used to be an intern at [Huawei Noah's Ark Lab](https://www.noahlab.com.hk/#/home) (advised by Prof. [Jianye Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=zh-CN)), [Tencent Robotics X](https://ai.tencent.com/ailab/zh/index) (advised by Dr. [Lei Han](https://leihan.org/)), and Alibaba. I received my Bachelor's degree and Master's degree in Computer Science from HIT.
-{style="text-align: justify;font-size: 0.9rem;"}
+<style>
+.justify-text {
+  text-align: justify;
+}
+.chinese-intro {
+  font-size: 17px;
+  text-align: justify;
+}
+</style>
 
-<span style="font-size: 17px;">中文简介：白辰甲，博士，现任中国电信人工智能研究院（TeleAI）研究科学家，具身智能团队负责人。研究方向包括具身智能、人形机器人、运动和操作大模型、推理对齐等。在包括AI Journal、TPAMI、NeurIPS等学术会议和期刊上发表论文50余篇，出版专著一部。主持国家自然科学基金、国家重点研发计划课题。入选中国科协青年托举人才、上海市启明星扬帆计划、上海市光启青年人才，获世界人工智能大会优秀论文提名奖，哈工大优秀博士论文奖，并担任多个国际顶级会议和期刊的领域主席和审稿人。</span>
-<br>
+<div class="justify-text">
 
-<span style="color: Crimson;font-size: 19px;">**团队招收具身智能方向全职研究人员、实习生、联培博士生，具体详见**[链接](https://baichenjia.github.io/contact/).</span>
+I am a researcher at Huawei Noah's Ark Lab, specialized in the cutting-edge fields of **Embodied AI** and **Reinforcement Learning** (RL). I am dedicated to researching embodied technologies including perception, planning, movement, and operation, and promoting the industrial application of embodied AI. I obtained a bachelor's degree in Marine technology from [Dalian University of Technology](https://www.dlut.edu.cn/)(DUT) and a Ph.D. degree in [Electronic Information from the Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China](https://pmpi.ustc.edu.cn/main.htm)(USTC). I also interned at the [Tencent Robotics X](https://ai.tencent.com/ailab/zh/index)(supervised by Dr. Zheng Yu and Dr. Huang Bidan). My research interests include body-intelligence, humanoid robots, reinforcement learning, robot motion planning and operation learning, etc. I also maintain a high level of interest and attention in fields such as robot simulation, data-driven, and multimodal large models.
 
+</div>
+
+<div class="chinese-intro">
+
+中文简介：郑立，博士，毕业于中国科学技术大学精密机械与精密仪器系，现任华为诺亚方舟实验室（Noah's Ark Lab）研究员。研究方向包括具身智能、人形机器人、强化学习、机器人运动规划和操作学习等，并对机器人仿真、数据驱动、多模态大模型等领域保持高度兴趣和关注。在机器人领域学术会议和期刊上发表论文，并担任多个国际会议和期刊的审稿人。
+
+</div>  
