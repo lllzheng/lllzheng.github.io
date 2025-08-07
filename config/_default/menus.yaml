@@ -6,23 +6,11 @@
 # 菜单项
 main:
   - name: Home
-    url: "#about"
+    url: '#about'
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
+  - name: Book
+    url: '#book'
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Publications
+    url: '#publication'
     weight: 30
-  - name: Teaching
-    url: teaching/
-    weight: 40
