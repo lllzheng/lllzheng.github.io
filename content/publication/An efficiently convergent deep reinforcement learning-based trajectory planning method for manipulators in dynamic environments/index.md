@@ -11,7 +11,7 @@ author_notes:
 date: "2023-03-37T00:00:00Z"
 doi: ""
 
-weight: 35
+weight: 1
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-03-37T00:00:00Z"
@@ -22,7 +22,7 @@ publishDate: "2023-03-37T00:00:00Z"
 publication_types: ["journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Intelligent \& Robotic Systems"
+publication: "Journal of Intelligent & Robotic Systems"
 publication_short: ""
 
 abstract: "Recently, deep reinforcement learning (DRL)-based trajectory planning methods have been designed for manipulator trajectory planning, given their potential in solving the problem of multidimensional spatial trajectory planning. However, many DRL models that have been proposed for manipulators working in dynamic environments face difficulties in obtaining the optimal strategy, thereby preventing them from reaching convergence because of massive ineffective exploration and sparse rewards. In this paper, we solve the inefficient convergence problem at the two levels of the action selection strategy and reward functions. First, this paper designs a dynamic action selection strategy that has a high probability of providing positive samples in the pre-training period by using a variable guide item and effectively reduces invalid exploration. Second, this study proposes a combinatorial reward function that combines the artificial potential field method with a time-energy function, thereby greatly improving the efficiency and stability of DRL-based methods for manipulators trajectory planning in dynamic working environments. Extensive experiments are conducted using the CoppeliaSim simulation model with a freely moving obstacle and the 6-DOF manipulator. The results show that the proposed dynamic action selection strategy and combinatorial reward function can improve the convergence rate on the DDPG, TD3, and SAC DRL algorithms by up to 3-5 times. Furthermore, the mean value of the reward function increases by up to 1.47-2.70 times, and the standard deviation decreases by 27.56% to 56.60%."
