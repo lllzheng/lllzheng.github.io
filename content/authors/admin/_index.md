@@ -88,12 +88,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:lz475815@gmail.com && zlsy@mail.ustc.edu.cn
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Baichenjia
   - icon: brands/x
     url: https://x.com/lllzheng_x
   - icon: brands/github
