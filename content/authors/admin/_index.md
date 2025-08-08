@@ -3,7 +3,7 @@
 title: 郑立
 
 # Name pronunciation (optional)
-name_pronunciation: Zheng Li
+name_pronunciation: Zhèng Lì
 
 # Full name (for SEO)
 first_name: Zheng
@@ -17,38 +17,40 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: "<br>Research Scientist <br>
-[Institute of Artificial Intelligence (TeleAI), China Telecom](http://www.chinatelecom.com.cn)"
+# role: "<br>Research Scientist <br>
+# [Institute of Artificial Intelligence (TeleAI), China Telecom](http://www.chinatelecom.com.cn)"
+role: Researcher
 
-# Organizations/Affiliations to show in About widget
-#organizations:
-#  - name: Shanghai AI Laboratory
-#    url: https://www.shlab.org.cn/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research mainly focuses on deep **Reinforcement Learning** (RL) and **Embodied AI**, including diffusion/transformer embodied system, Preference Learning, offline RL, robust RL, efficient exploration, representation learning, and multi-agent system.
+# Organizations/Affiliations to display in Biography blox
+organizations:
+  - name: HuaWei Technologies
+    url: https://www.huawei.com/
 
 # Interests to show in About widget
 interests:
   - Embodied AI
+  - Robot Control
   - Reinforcement Learning
-  - Foundation Model for Decision Making
+  - Data-driven Robotics
 
 # Education to show in About widget
+# education:
+#   courses:
+#     - course: PhD in Computer Science
+#       institution: Harbin Institute of Technology
+#       year: 2017-2022
+#     - course: Joint PhD Program
+#       institution: University of Toronto
+#       year: 2021-2022
 education:
-  courses:
-    - course: PhD in Computer Science
-      institution: Harbin Institute of Technology
-      year: 2017-2022
-    - course: Joint PhD Program
-      institution: University of Toronto
-      year: 2021-2022
-    # - course: MEng in Computer Science
-    #   institution: Harbin Institute of Technology
-    #   year: 2017
-    # - course: BSc in Computer Science
-    #   institution: Harbin Institute of Technology
-    #   year: 2015
+  - area: PhD in Electronic Information
+    institution: University of Science and Technology of China
+    date_start: 2020-09-01
+    date_end: 2025-06-20
+  - area: BSc in Marine Technology
+    institution: Dalian University of Technology
+    date_start: 2016-09-01
+    date_end: 2020-06-30
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -94,19 +96,37 @@ skills:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
+# social:
+#   - icon: envelope
+#     icon_pack: fas
+#     link: mailto:baicj@chinatelecom.cn
+#   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+#     icon_pack: fas
+#     link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
+#   - icon: github
+#     icon_pack: fab
+#     link: https://github.com/Baichenjia
+#   - icon: zhihu
+#     icon_pack: fab
+#     link: https://www.zhihu.com/column/RL-HIT
+
+profiles:
   - icon: envelope
     icon_pack: fas
-    link: mailto:baicj@chinatelecom.cn
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Baichenjia
-  - icon: zhihu
-    icon_pack: fab
-    link: https://www.zhihu.com/column/RL-HIT
+    link: mailto:lz475815@gmail.com && zlsy@mail.ustc.edu.cn
+  - icon: at-symbol
+    url: 'lz475815@gmail.com'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://x.com/lllzheng_x
+  - icon: brands/github
+    url: https://github.com/lllzheng
+  - icon: brands/bilibili
+    url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
+  - icon: brands/zhihu
+    url: https://www.zhihu.com/people/zheng-li-26-99
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
     
 # Highlight the author in author lists? (true/false)
 highlight_name: true
