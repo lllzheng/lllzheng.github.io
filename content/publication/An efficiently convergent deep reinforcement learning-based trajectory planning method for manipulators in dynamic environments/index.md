@@ -37,9 +37,9 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://link.springer.com/article/10.1007/s10846-023-01822-5
-url_code: 
-url_dataset: ''
-url_poster: ''
+url_code: 'https://'
+url_dataset: 'https://'
+url_poster: 'https://'
 url_project: ''
 url_slides: ''
 url_source: ''
