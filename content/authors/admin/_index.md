@@ -17,8 +17,6 @@ status:
 superuser: true
 
 # Role/position/tagline
-# role: "<br>Research Scientist <br>
-# [Institute of Artificial Intelligence (TeleAI), China Telecom](http://www.chinatelecom.com.cn)"
 role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
@@ -86,37 +84,24 @@ skills:
         icon_pack: fas
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-# social:
-#   - icon: envelope
-#     icon_pack: fas
-#     link: mailto:baicj@chinatelecom.cn
-#   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-#     icon_pack: fas
-#     link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
-#   - icon: github
-#     icon_pack: fab
-#     link: https://github.com/Baichenjia
-#   - icon: zhihu
-#     icon_pack: fab
-#     link: https://www.zhihu.com/column/RL-HIT
-
-profiles:
+social:
   - icon: envelope
     icon_pack: fas
     link: mailto:lz475815@gmail.com && zlsy@mail.ustc.edu.cn
-  - icon: at-symbol
-    url: 'lz475815@gmail.com'
-    label: E-mail Me
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/Baichenjia
   - icon: brands/x
     url: https://x.com/lllzheng_x
   - icon: brands/github
     url: https://github.com/lllzheng
   - icon: brands/bilibili
     url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
-  - icon: brands/zhihu
+  - icon: zhihu
+    icon_pack: fab
     url: https://www.zhihu.com/people/zheng-li-26-99
   - icon: academicons/google-scholar
     url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
