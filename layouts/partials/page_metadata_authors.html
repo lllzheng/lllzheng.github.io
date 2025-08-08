@@ -15,7 +15,7 @@
         {{- $plainName = (substr $authorName 0 (sub (len $authorName) 1)) }}
       {{ end }}
       {{- if .RelPermalink -}}
-        <a href="{{.RelPermalink}}" style="{{ if eq $plainName "Chenjia Bai" }}font-weight:bold;color:black;{{ end }}">
+        <a href="{{.RelPermalink}}" style="{{ if eq $plainName "Li Zheng" }}font-weight:bold;color:black;{{ end }}">
           {{ if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
             {{ $plainName }}<sup>✉</sup>
           {{ else }}
@@ -23,7 +23,7 @@
           {{ end }}
   </a>
   {{- else -}}
-        {{ if eq $plainName "Chenjia Bai" }}
+        {{ if eq $plainName "Li Zheng" }}
           <strong style="font-weight:bold;color:black;">
             {{ if eq (substr $authorName (sub (len $authorName) 1) 1) "*" }}
               {{ $plainName }}<sup>✉</sup>
