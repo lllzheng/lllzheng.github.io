@@ -9,12 +9,15 @@ main:
     weight: 10
   - name: Publications
     url: '#publication'
+    weight: 20
+  - name: Projects
+    url: '#project'
     weight: 30
   - name: Blogs
-    url: '#post'
+    url: post
     weight: 40
   - name: Life
-    url: '#life'
+    url: life
     weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
