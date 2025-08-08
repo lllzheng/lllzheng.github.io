@@ -99,6 +99,12 @@ social:
     url: https://www.zhihu.com/people/zheng-li-26-99
   - icon: academicons/google-scholar
     url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/Baichenjia
     
 # Highlight the author in author lists? (true/false)
 highlight_name: true
