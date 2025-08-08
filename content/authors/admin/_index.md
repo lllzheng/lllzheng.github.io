@@ -34,23 +34,16 @@ interests:
   - Data-driven Robotics
 
 # Education to show in About widget
-# education:
-#   courses:
-#     - course: PhD in Computer Science
-#       institution: Harbin Institute of Technology
-#       year: 2017-2022
-#     - course: Joint PhD Program
-#       institution: University of Toronto
-#       year: 2021-2022
 education:
-  - area: PhD in Electronic Information
-    institution: University of Science and Technology of China
-    date_start: 2020-09-01
-    date_end: 2025-06-20
-  - area: BSc in Marine Technology
-    institution: Dalian University of Technology
-    date_start: 2016-09-01
-    date_end: 2020-06-30
+  courses:
+    - course: PhD in Electronic Information
+      institution: University of Science and Technology of China(USTC)
+      date_start: 2020-09-01
+      date_end: 2025-06-20
+    - course: BSc in Marine Technology
+      institution: Dalian University of Technology(DUT)
+      date_start: 2016-09-01
+      date_end: 2020-06-30
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
