@@ -7,17 +7,14 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Book
-    url: '#book'
-    weight: 20
   - name: Publications
     url: '#publication'
     weight: 30
-  - name: Team
-    url: people
+  - name: Blogs
+    url: '#post'
     weight: 40
-  - name: Join us
-    url: contact
+  - name: Life
+    url: '#life'
     weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
