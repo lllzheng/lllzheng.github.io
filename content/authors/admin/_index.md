@@ -88,23 +88,21 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:lz475815@gmail.com && zlsy@mail.ustc.edu.cn
-  - icon: brands/x
+  - icon: x
+    icon_pack: fab
     url: https://x.com/lllzheng_x
-  - icon: brands/github
+  - icon: github
+    icon_pack: fab
     url: https://github.com/lllzheng
-  - icon: brands/bilibili
+  - icon: bilibili
+    icon_pack: fab
     url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
   - icon: zhihu
     icon_pack: fab
     url: https://www.zhihu.com/people/zheng-li-26-99
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl=zh-CN
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=Rm_1y2kAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Baichenjia
+    url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl
     
 # Highlight the author in author lists? (true/false)
 highlight_name: true
