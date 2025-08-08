@@ -36,12 +36,10 @@ education:
   courses:
     - course: PhD in Electronic Information
       institution: University of Science and Technology of China(USTC)
-      date_start: 2020-09-01
-      date_end: 2025-06-20
+      year: 2020-2025
     - course: BSc in Marine Technology
       institution: Dalian University of Technology(DUT)
-      date_start: 2016-09-01
-      date_end: 2020-06-30
+      year: 2016-2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -88,22 +86,22 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:lz475815@gmail.com && zlsy@mail.ustc.edu.cn
-  - icon: x
-    icon_pack: fab
-    url: https://x.com/lllzheng_x
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl
   - icon: github
     icon_pack: fab
-    url: https://github.com/lllzheng
+    link: https://github.com/lllzheng
+  - icon: x
+    icon_pack: fab
+    link: https://x.com/lllzheng_x
   - icon: bilibili
     icon_pack: fab
-    url: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
+    link: https://space.bilibili.com/47162069?spm_id_from=333.1007.0.0
   - icon: zhihu
     icon_pack: fab
-    url: https://www.zhihu.com/people/zheng-li-26-99
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    url: https://scholar.google.com.hk/citations?user=5CLobYcAAAAJ&hl
-    
+    link: https://www.zhihu.com/people/zheng-li-26-99
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
