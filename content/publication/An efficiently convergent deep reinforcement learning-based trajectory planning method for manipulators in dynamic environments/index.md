@@ -8,13 +8,13 @@ authors:
 - Rui Guo
 - Erbao Dong*
 author_notes:
-date: "2023-03-37T00:00:00Z"
-doi: ""
+date: "2023-03-04T00:00:00Z"
+doi: "10.1007/s10846-023-01822-5"
 
 weight: 1
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-03-37T00:00:00Z"
+publishDate: "2023-03-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -37,9 +37,9 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://link.springer.com/article/10.1007/s10846-023-01822-5
-url_code: 'https://'
-url_dataset: 'https://'
-url_poster: 'https://'
+url_code: ''
+url_dataset: ''
+url_poster: '1.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
