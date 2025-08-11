@@ -1,5 +1,5 @@
 ---
-title: "An efficiently convergent deep reinforcement learning-based trajectory planning method for manipulators in dynamic environments"
+title: "Deep visual-guided and deep reinforcement learning algorithm based for multip-peg-in-hole assembly task of power distribution live-line operation robot"
 authors:
 - Li Zheng
 - Jiajun Ai
@@ -13,7 +13,7 @@ author_notes:
 date: "2024-05-18T00:00:00Z"
 doi: "10.1007/s10846-024-02079-2"
 
-weight: 2
+weight: 49
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-05-18T00:00:00Z"

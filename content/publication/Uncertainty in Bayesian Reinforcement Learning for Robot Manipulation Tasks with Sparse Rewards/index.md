@@ -1,5 +1,5 @@
 ---
-title: "An efficiently convergent deep reinforcement learning-based trajectory planning method for manipulators in dynamic environments"
+title: "Uncertainty in Bayesian Reinforcement Learning for Robot Manipulation Tasks with Sparse Rewards"
 authors:
 - Li Zheng
 - Yanghong Li
@@ -11,7 +11,7 @@ author_notes:
 date: "2024-12-04T00:00:00Z"
 doi: "10.1109/ROBIO58561.2023.10354785"
 
-weight: 3
+weight: 48
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-04T00:00:00Z"
