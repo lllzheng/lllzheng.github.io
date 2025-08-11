@@ -1,11 +1,31 @@
 ---
-title: Uubuntu 系统配置
+title: Ubuntu 系统配置
+subtitle: 个人开发环境配置 Ubuntu22.04
+summary: 本文介绍了在Ubuntu22.04上配置个人开发环境的步骤，包括浏览器、终端、软件和环境等方面的配置。
+# Link this post with a project
+projects: []
+# Date published
+date: '2023-12-13T00:00:00Z'
+# Date updated
+lastmod: '2023-12-13T00:00:00Z'
+# Is this an unpublished draft?
+draft: false
+# Show this page in the Featured widget?
+featured: false
+# Featured image
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+authors:
+  - admin
+tags:
+  - Academic
+  - 开源
+  - Ubuntu
 categories:
-    - OS
-tags:   
-    - Ubuntu
-author: 高山临溪谷
-comments: true
+    - 教程
 ---
 ## 一、 安装浏览器
 
