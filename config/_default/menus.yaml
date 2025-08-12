@@ -17,7 +17,7 @@ main:
     url: post
     weight: 40
   - name: Categories
-    url: '#categories'
+    url: 'categories'
     weight: 41
   - name: Life
     url: life

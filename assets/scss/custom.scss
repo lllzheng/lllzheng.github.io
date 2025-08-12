@@ -26,3 +26,52 @@
 .card-body-custom{
   padding:1.0rem !important;
 }
+
+.categories-list {
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 10px 0;
+
+            a {
+                text-decoration: none;
+                color: #1976d2;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+    .post-card {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: left;
+
+        a {
+            text-decoration: none;
+            color: #333;
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+                color: #666;
+            }
+        }
+    }
+}
