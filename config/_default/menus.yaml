@@ -18,7 +18,7 @@ main:
     weight: 40
   - name: Categories
     url: categories
-    weight: 41
+    weight: 90
   - name: Life
     url: life
     weight: 50
