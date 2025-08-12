@@ -1,11 +1,24 @@
 ---
 title: Docker 学习
+subtitle: Docker 学习笔记
+summary: 本文介绍了Docker的基础教程、镜像准备、调试等内容，适合初学者学习和使用Docker。
+projects: []
+date: '2023-12-13T00:00:00Z'
+lastmod: {{ .Date }}
+draft: false
+featured: false
+image:
+  caption: '[Docker 学习笔记:](./images/docker.png)'
+  focal_point: ''
+  placement: 2
+  preview_only: false
 categories:
+    - 教程
     - Docker
 tags:
     - Docker
-author: 高山临溪谷
-comments: true
+authors:
+  - admin
 ---
 ## docker 学习笔记
 

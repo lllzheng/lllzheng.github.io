@@ -7,15 +7,15 @@ projects: []
 # Date published
 date: '2023-12-13T00:00:00Z'
 # Date updated
-lastmod: '2023-12-13T00:00:00Z'
+lastmod: {{ .Date }}
 # Is this an unpublished draft?
 draft: false
 # Show this page in the Featured widget?
-featured: false
+featured: true
 # Featured image
 image:
-  caption: ''
-  focal_point: ''
+  caption: 'Ubuntu 系统配置界面: [**Unsplash**](./images/ubuntu.png)'
+  focal_point: 'Smart'
   placement: 2
   preview_only: false
 authors:
