@@ -18,7 +18,6 @@ image:
   focal_point: 'Smart'
   placement: 2
   preview_only: false
-  filename: './images/ubuntu.png'
 authors:
   - admin
 tags:
