@@ -7,7 +7,7 @@ projects: []
 # Date published
 date: '2023-12-13T00:00:00Z'
 # Date updated
-lastmod: {{ .Date }}
+lastmod: '2023-12-13T00:00:00Z'
 # Is this an unpublished draft?
 draft: false
 # Show this page in the Featured widget?
