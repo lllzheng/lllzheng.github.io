@@ -4,9 +4,8 @@ categories:
     - Mujoco
 tags:   
     - Mujoco
-# index_img: "../img/文章封面图/mujoco.png"
-author: 高山临溪谷
-comments: true
+author: 
+  - admin
 ---
 ## mujoco-py 学习笔记
 

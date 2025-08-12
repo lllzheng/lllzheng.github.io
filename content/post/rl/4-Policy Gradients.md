@@ -1,10 +1,11 @@
 ---
 title: Policy Gradients
 categories:
-    - RL算法
+    - RL
 tags:
     - RL
-author: 高山临溪谷
+author: 
+  - admin
 comments: true
 ---
 # Policy Gradients

@@ -1,11 +1,11 @@
 ---
 title: DQN
 categories:
-    - RL算法
+    - RL
 tags:
     - RL
-author: 高山临溪谷
-comments: true
+author: 
+  - admin
 ---
 # DQN
 
