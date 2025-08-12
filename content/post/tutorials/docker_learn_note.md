@@ -8,11 +8,10 @@ lastmod: '2023-12-13T00:00:00Z'
 draft: false
 featured: false
 image:
-  caption: 'Docker 学习笔记'
+  caption: 'Docker 学习笔记: [**Unsplash**](./images/docker.png)'
   focal_point: 'Smart'
   placement: 2
   preview_only: false
-  filename: './images/docker.png'
 categories:
     - 教程
     - Docker
