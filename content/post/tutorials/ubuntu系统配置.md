@@ -14,10 +14,11 @@ draft: false
 featured: true
 # Featured image
 image:
-  caption: 'Ubuntu 系统配置界面: [**Unsplash**](./images/ubuntu.png)'
+  caption: 'Ubuntu 系统配置界面'
   focal_point: 'Smart'
   placement: 2
   preview_only: false
+  filename: './images/ubuntu.png'
 authors:
   - admin
 tags:
