@@ -7,7 +7,7 @@ date: '2023-12-13T00:00:00Z'
 lastmod: '2023-12-13T00:00:00Z'
 draft: false
 featured: false
-weight: 1
+weight: 30
 image:
   caption: 'Docker 学习笔记'
   focal_point: ''
