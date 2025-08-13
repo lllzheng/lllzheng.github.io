@@ -7,11 +7,11 @@ date: '2023-12-13T00:00:00Z'
 lastmod: '2023-12-13T00:00:00Z'
 draft: false
 featured: false
-weight: 30
+weight: 2
 image:
   caption: 'Docker 学习笔记'
   focal_point: ''
-  placement: 2
+  placement: 1
   preview_only: false
 categories:
     - 教程

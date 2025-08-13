@@ -12,7 +12,7 @@ lastmod: '2023-12-13T00:00:00Z'
 draft: false
 # Show this page in the Featured widget?
 featured: false
-weight: 20
+weight: 1
 # Featured image
 image:
   caption: 'Ubuntu 系统配置界面'
