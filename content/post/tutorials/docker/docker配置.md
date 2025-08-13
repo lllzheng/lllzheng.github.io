@@ -9,7 +9,7 @@ draft: false
 featured: false
 image:
   caption: 'Docker 学习笔记'
-  focal_point: 'Smart'
+  focal_point: ''
   placement: 2
   preview_only: false
 categories:

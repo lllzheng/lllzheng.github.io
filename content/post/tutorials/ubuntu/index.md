@@ -15,7 +15,7 @@ featured: true
 # Featured image
 image:
   caption: 'Ubuntu 系统配置界面'
-  focal_point: 'Smart'
+  focal_point: ''
   placement: 2
   preview_only: false
 authors:
