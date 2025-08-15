@@ -23,7 +23,12 @@
 
                             <!-- 显示该分类下的文章列表 -->
                             <div class="category-posts flex-grow-1">
-                                {{ range first 5 $taxonomy.ByDate.Reverse }}
+                                {{ $pages := slice }}
+                                {{ range $taxonomy }}
+                                  {{ $pages = $pages | append .Page }}
+                                {{ end }}
+                                {{ $sortedPages := sort $pages "Date" "desc" }}
+                                {{ range first 5 $sortedPages }}
                                 <div class="post-item mb-2">
                                     <a href="{{ .Permalink }}" class="post-link">
                                         {{ .Title }}
