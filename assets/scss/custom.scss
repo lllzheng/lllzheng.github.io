@@ -1,30 +1,72 @@
-.home-padding{
-  padding: 40px 0;
+.home-padding {
+    padding: 40px 0;
 }
 
-.article-title-custom{
-  font-size: 1.0rem !important;
-  line-height: normal !important;
+.article-title-custom {
+    font-size: 1.0rem !important;
+    line-height: normal !important;
 }
 
-.line-height-custom{
-  line-height: normal !important;
+// 分类页面样式
+.category-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title a {
+        color: #495057;
+        font-weight: 600;
+
+        &:hover {
+            color: #007bff;
+            text-decoration: none;
+        }
+    }
 }
 
-.author-custom{
-  margin-top: 0px !important;
+.post-link {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+
+    &:hover {
+        color: #007bff;
+        text-decoration: none;
+    }
 }
 
-.publication-custom{
-  margin-bottom: 0px !important;
+.post-item {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #f8f9fa;
+
+    &:last-child {
+        border-bottom: none;
+    }
 }
 
-.card-custom{
-  margin-bottom: 0px !important;
+.line-height-custom {
+    line-height: normal !important;
 }
 
-.card-body-custom{
-  padding:1.0rem !important;
+.author-custom {
+    margin-top: 0px !important;
+}
+
+.publication-custom {
+    margin-bottom: 0px !important;
+}
+
+.card-custom {
+    margin-bottom: 0px !important;
+}
+
+.card-body-custom {
+    padding: 1.0rem !important;
 }
 
 .categories-list {
