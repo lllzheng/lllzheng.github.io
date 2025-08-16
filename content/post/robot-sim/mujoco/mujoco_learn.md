@@ -1,9 +1,10 @@
 ---
 title: Mujoco 学习笔记
 categories:
-    - Mujoco
+  - robot-sim
+  - Mujoco
 tags:   
-    - Mujoco
+  - Mujoco
 author: 
   - admin
 ---

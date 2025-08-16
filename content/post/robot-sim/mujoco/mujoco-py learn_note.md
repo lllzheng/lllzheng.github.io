@@ -1,9 +1,10 @@
 ---
 title: Mujoco-py 学习
 categories:
-    - Mujoco
+  - robot-sim
+  - Mujoco
 tags:   
-    - Mujoco
+  - Mujoco
 author: 
   - admin
 ---

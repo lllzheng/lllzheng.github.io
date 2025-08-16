@@ -26,7 +26,7 @@ tags:
   - 开源
   - Ubuntu
 categories:
-    - 教程
+    - tutorials
 ---
 ## 一、 安装浏览器
 

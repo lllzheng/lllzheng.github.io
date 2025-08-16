@@ -14,7 +14,6 @@ image:
   placement: 1
   preview_only: false
 categories:
-    - 教程
     - Docker
 tags:
     - Docker

@@ -1,10 +1,11 @@
 ---
 title: Mujoco Q&A
 categories:
-    - Mujoco
-tags:   
-    - Mujoco
-author: 
+  - robot-sim
+  - Mujoco
+tags:
+  - Mujoco
+author:
   - admin
 ---
 
