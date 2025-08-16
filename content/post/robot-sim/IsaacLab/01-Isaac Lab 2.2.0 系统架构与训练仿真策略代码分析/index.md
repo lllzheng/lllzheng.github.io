@@ -81,32 +81,34 @@ categories:
 ## 三、Isaac Lab 代码结构
 
 ```text
-IsaacLab/
-├── .vscode/                 # VS Code 调试/格式化配置
-├── .flake8                   # Python 代码风格
-├── CONTRIBUTING.md
-├── CONTRIBUTORS.md
-├── LICENSE
-├── isaaclab.bat / isaaclab.sh
-├── pyproject.toml
-├── README.md
-├── VERSION
-├── docs/                    # API & 教程文档
-├── docker/                  # 一键容器化
-├── source/                  # 核心源码
-│   ├── isaaclab/            # 框架主入口
-│   ├── isaaclab_assets/     # 机器人/场景资产
-│   ├── isaaclab_mimic/      # 模仿学习
-│   ├── isaaclab_rl/         # 强化学习
-│   └── isaaclab_tasks/      # 任务定义
-├── scripts/
-│   ├── benchmarks/          # 算法基准
-│   ├── demos/               # 功能演示
-│   ├── environments/        # 预置场景
-│   ├── imitation_learning/  # IL 脚本
-│   ├── reinforcement_learning/ # RL 训练脚本
-│   ├── tools/               # 数据处理/可视化
-│   └── tutorials/           # 入门示例
+IsaacLab
+├── .vscode                  # VS Code 调试/格式化配置
+├── .flake8                  # Python 代码风格检查配置
+├── CONTRIBUTING.md          # 贡献指南
+├── CONTRIBUTORS.md          # 贡献者名单
+├── LICENSE                  # 开源协议
+├── isaaclab.bat             # Windows 启动脚本
+├── isaaclab.sh              # Linux/Mac 启动脚本
+├── pyproject.toml           # Python 项目配置文件
+├── README.md                # 项目说明文档
+├── docs                     # API 文档与教程
+├── docker                   # 容器化部署配置
+├── source                   # 核心源码
+│   ├── isaaclab             # 框架主入口
+│   ├── isaaclab_assets      # 机器人/场景资产
+│   ├── isaaclab_mimic       # 模仿学习模块
+│   ├── isaaclab_rl          # 强化学习算法
+│   └── isaaclab_tasks       # 任务环境定义
+├── scripts                  # 可执行脚本
+│   ├── benchmarks           # 算法性能基准测试
+│   ├── demos                # 功能演示脚本
+│   ├── environments         # 预置仿真环境
+│   ├── imitation_learning   # 模仿学习训练脚本
+│   ├── reinforcement_learning # 强化学习训练脚本
+│   ├── tools                # 数据处理/可视化工具
+│   ├── tutorials            # 入门教程示例
+├── tools                    # 开发工具集
+└── VERSION                  # 版本信息文件
 ```
 
 ---
