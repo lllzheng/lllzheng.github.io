@@ -115,7 +115,7 @@ IsaacLab
 
 ## 四、Isaac Lab 机器强化学习完整流程
 
-![Pipeline](image-link-placeholder)
+![Pipeline](./images/isaac-lab-ra-light.svg)
 
 1. **Asset Input**  
    - Scene Assets：仿真场景资源  
@@ -156,6 +156,8 @@ Isaac Lab 提供两种环境风格：
 | **Direct** | 轻量级、代码扁平化 |
 
 ### Manager-Based 环境组件
+
+![Manager-Based Architecture](./images/manager-based-light.svg)
 
 | 组件 | 说明 |
 | --- | --- |
