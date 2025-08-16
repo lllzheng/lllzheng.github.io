@@ -4,7 +4,7 @@ subtitle: Docker 学习笔记
 summary: 本文介绍了Docker的基础教程、镜像准备、调试等内容，适合初学者学习和使用Docker。
 projects: []
 date: '2023-12-13T00:00:00Z'
-lastmod: '2023-12-13T00:00:00Z'
+# Date updated - automatically managed by Hugo/Git
 draft: false
 featured: false
 weight: 2

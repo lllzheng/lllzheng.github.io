@@ -6,8 +6,7 @@ summary: 本文介绍了在Ubuntu22.04上配置个人开发环境的步骤，包
 projects: []
 # Date published
 date: '2023-12-13T00:00:00Z'
-# Date updated
-lastmod: '2023-12-13T00:00:00Z'
+# Date updated - automatically managed by Hugo/Git
 # Is this an unpublished draft?
 draft: false
 # Show this page in the Featured widget?
